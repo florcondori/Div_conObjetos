@@ -5,9 +5,11 @@ var estudiante = [ { nombre : "Arabela", apellido : "Rojas", rol : "T.A", cumple
  					{ nombre : "Gian", apellido : "Corzo", rol : "Profesor", cumpleanios : "23 de enero" } ];
 
 	
-	
+//obtenr el Div donde se imprimira	
 var pantalla = document.getElementById("pantalla");
+//crear un string vacio para almacenar los datos por estudiante
 var mensaje = "";
+//recorrer el Array estudiante
 estudiante.forEach(function(elemento){
 	mensaje += "<div>"+
 					"<ul>"+
